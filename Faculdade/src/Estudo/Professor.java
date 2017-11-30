@@ -26,7 +26,6 @@ public void  calcularSalario(double percimposto)
 
    
 
-    @Override
     public void login() {        
     }
 
