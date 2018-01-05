@@ -11,8 +11,10 @@ import java.util.Scanner;
 // InputMismatchException
 public class Exemplo1 {
 
-    public static void main(String args[]) {
-  	Scanner entrada = new Scanner(System.in);
+    @SuppressWarnings("unused")
+	public static void main(String args[]) {
+  	@SuppressWarnings("resource")
+	Scanner entrada = new Scanner(System.in);
   	int numero = entrada.nextInt();
 }
 

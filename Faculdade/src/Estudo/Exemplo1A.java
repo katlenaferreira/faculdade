@@ -11,9 +11,11 @@ package Estudo;
 import java.util.Scanner;
 
 public class Exemplo1A {
-    public static void main(String args[]) {
+    @SuppressWarnings("resource")
+	public static void main(String args[]) {
     try {
 		Scanner entrada = new Scanner(System.in);
+		@SuppressWarnings("unused")
 		int numero = entrada.nextInt();
     	} catch (Exception e) {
             System.out.println("O valor digitado é inválido!");
